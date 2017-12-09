@@ -1,0 +1,8 @@
+Enter Type:
+ListOfFunctions
+
+Enter Values:
+Indefinite integral of x squared
+Definite integral of 5 x squared from 1 to 4
+Limit of x to the x as x approaches zero plus
+Derivative of 5 x
