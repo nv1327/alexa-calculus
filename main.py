@@ -1,13 +1,7 @@
 import wolframalpha
-
-#add input statement from alexa
-inputstatement
 #example: inputstatement = "What is the definite integral of 5 x squared from 1 to 3"
-
-client = wolframalpha.Client("AAREUR-UVEWA5PATW")
-res = client.query(inputstatement)
-
 def main(inputstatement):
+    res = client.query(inputstatement)
     if (inputstatement.lower().find("indefinite integral")!=-1):
         answer = res.details["Indefinite integral"]
     elif (inputstatement.lower().find("definite integral")!=-1):
@@ -22,4 +16,3 @@ def main(inputstatement):
         answer = res.details["Result"]
     return answer
 
-print(main(inputstatement))
