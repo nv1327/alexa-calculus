@@ -1,4 +1,6 @@
 import wolframalpha
+client = wolframalpha.Client("AAREUR-UVEWA5PATW")
+
 #example: inputstatement = "What is the definite integral of 5 x squared from 1 to 3"
 def main(inputstatement):
     res = client.query(inputstatement)
