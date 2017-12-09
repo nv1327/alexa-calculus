@@ -1,5 +1,9 @@
 import wolframalpha
 
+#add input statement from alexa
+inputstatement
+#example: inputstatement = "What is the definite integral of 5 x squared from 1 to 3"
+
 client = wolframalpha.Client("AAREUR-UVEWA5PATW")
 res = client.query(inputstatement)
 
@@ -18,6 +22,4 @@ def main(inputstatement):
         answer = res.details["Result"]
     return answer
 
-inputstatement
-
-print main(inputstatement)
+print(main(inputstatement))
