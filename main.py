@@ -17,4 +17,3 @@ def main(inputstatement):
     else:
         answer = res.details["Result"]
     return answer
-
