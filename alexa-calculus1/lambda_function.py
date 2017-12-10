@@ -25,6 +25,11 @@ def main(inputstatement):
     else:
         answer = "Invalid calculation"
 
+    for i in range(0, len(answer)-1, 1):
+        if (answer[i]=='-'):
+            temp = answer[:i-1] + " negative " + answer[i+1:]
+            answer = temp
+            i+=10
     return answer
 
 def lambda_handler(event, context):
