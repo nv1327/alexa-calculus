@@ -1,5 +1,4 @@
-# alexa-calculus
-<<<<<<< HEAD
+# Alexa-Calculus
 Nicholas Vitebsky, Abhi Sarma, Brian Lee
 # Inspiration
 We came up with the project on a whim. We had initially toyed with an API for both NJ Transit and NYC Transit, apps for testing the performances of various CS algorithms. We had an Amazon Alexa for some weird purpose. Three hours later and we had no project idea. Then Brian the Github man remembers the two 70s he got on his calc tests. He was sad. And then he thought purely on a whim, why not have Alexa do his calc homework? Nah, there's an app for that, he said. Except there wasn't. Thus our app.
