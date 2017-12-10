@@ -21,7 +21,11 @@ def main(inputstatement):
     elif (inputstatement.lower().find("limit") != -1):
         inputstatement = inputstatement[inputstatement.lower().find("limit"):]
         res = client.query(inputstatement)
-        answer = res.details["limit"]
+        answer = res.details["Limit"]
+        for i in range(0, len(answer)-1, 1):
+            if (answer[i]=="="):
+                return answer[i+1:]
+
     else:
         answer = "Invalid calculation"
 
