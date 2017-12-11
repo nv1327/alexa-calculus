@@ -20,7 +20,7 @@ The project utilizes a Python core and takes data from a Wolfram Alpha API. Ther
 
 The Wolfram-Side relies on a classic Get/Post REST API, and the Alexa-Side relies on a series of preset "commands" to quickly process the command and send it along its way.
 
-# Challenes we Ran Into
+# Challenges we Ran Into
 
 Immense challenges emerged over the Alexa-Side of the project. This was partially because the documentation was inadequete, and partially because our experience with Alexa is limited. Perhaps most tough was processing and extracting the voice command to send to the Wolfram-Side, in particular because little documentation existed on how to link Alexa's script with our core Python files.
 
