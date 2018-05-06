@@ -4,13 +4,13 @@ Nicholas Vitebsky, Abhi Sarma, Brian Lee
 __Won Best IoT Hack at HackMCST III__
 
 # Inspiration
-We came up with the project on a whim. We had initially toyed with an API for both NJ Transit and NYC Transit, apps for testing the performances of various CS algorithms. We had an Amazon Alexa for some weird purpose. Three hours later and we had no project idea. Then Brian the Github man remembers the two 70s he got on his calc tests. He was sad. And then he thought purely on a whim, why not have Alexa do his calc homework? Nah, there's an app for that, he said. Except there wasn't. Thus our app.
+We came up with the project on a whim. We had initially toyed with an API for both NJ Transit and NYC Transit, apps for testing the performances of various CS algorithms. We had an Amazon Alexa for some weird purpose. Three hours later and we had no project idea. Then Brian the Github man remembered the two 70s he got on his calc tests. He thought, why not have Alexa do his calc homework? Nah, there's an app for that, he said. Except there wasn't. Thus our app.
 
 # What it Does
 
-Alexa Calculus takes a function inputted by voice and computes the derivative (or the integral) of the function. The other calculus app only knew the derivative of sin x (or trigonometric apps if you were lucky), so we considered it inadeqeute.
+Alexa Calculus takes a function inputted by voice and computes the derivative (or the integral) of the function. The only other calculus app in the Alexa marketplace only knew the derivative of sin x (or trigonometric apps if you were lucky), so we considered it inadequate.
 
-NOTE: running this app requires either a) Beta Access given from one of the developers or b) re-compiling the project by making a new Skill. The project is in lieu of being approved by Amzon.
+NOTE: running this app requires either a) Beta Access given from one of the developers or b) re-compiling the project by making a new Skill. The project is in lieu of being approved by Amazon.
 
 # How we Built it
 
@@ -22,7 +22,7 @@ The Wolfram-Side relies on a classic Get/Post REST API, and the Alexa-Side relie
 
 # Challenges we Ran Into
 
-Immense challenges emerged over the Alexa-Side of the project. This was partially because the documentation was inadequete, and partially because our experience with Alexa is limited. Perhaps most tough was processing and extracting the voice command to send to the Wolfram-Side, in particular because little documentation existed on how to link Alexa's script with our core Python files.
+Immense challenges emerged over the Alexa-Side of the project. This was partially because the documentation was inadequate, and partially because our experience with Alexa was limited. Perhaps the most tough experience was processing and extracting the voice command to send to the Wolfram-Side, in particular because little documentation existed on how to link Alexa's script with our core Python files.
 
 The final major issue was how Alexa recieved the results. The initial strategy was to encompass a JSON file with ```json.loads()``` (to make a JSON file), but that turned out to be unecessary.
 
